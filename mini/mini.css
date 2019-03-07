@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+
+body {
+    font-family: 'Srisakdi', cursive;
+}
+
+h1 {
+    font-size: 72px;
+
+}
+
+h2 {
+    font-size: 26px;
+}
+
+body {
+    background-image: url("./background.png");
+}
+
+header {
+    height: 100px;
+    padding: 25px;
+    color: white;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+}
+
+header ul {
+    padding: 15px;
+}
+
+header li {
+    float: right;
+    margin: 0 15px;
+}
+
+a {
+    color: white;
+}
+
+section {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: lawngreen;
+    transition: 0.7s;
+    text-shadow: 3px 3px 5px black;
+    box-shadow: 1px 4px 5px rgb(85, 78, 78);
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background-color: magenta;
+}
