@@ -1,5 +1,70 @@
 body {
-    background-color: red!important;
+    background-color: rgb(233, 230, 217);
 }
 
 /* !important    --> will break the cascade, it will be applied and will override */
+
+header {
+    height: 100px;
+    background-color: black;
+    padding: 25px 50px;
+}
+
+.logo, #main-nav {
+    height: 100%;
+    background-color: white;
+}
+
+.logo {
+    width: 100px;
+    float: left;
+}
+
+#main-nav {
+    width: 200px;
+    float: right;
+}
+
+.main-container {
+    background-color: black;
+    height: 350px;
+    width: 700px;
+    margin: 100px auto;
+    padding: 50px 50px;
+}
+
+.box-one, .box-two, .button-left, .button-right {
+    background-color: white;
+}
+
+.box-one {
+    width: 600px;
+    height: 50px;
+
+}
+
+.box-two {
+    width: 500px;
+    height: 50px;
+    margin: 25px auto;
+
+}
+
+.button-left, .button-right {
+    width: 270px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+/* border-radius can be px or %*/
+
+.button-left {
+    float: left;
+    margin-left: 20px;
+}
+
+.button-right {
+    float: right;
+    margin-right: 20px;
+}
