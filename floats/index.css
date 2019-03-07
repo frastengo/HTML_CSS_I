@@ -1,0 +1,76 @@
+body {
+    background-color: red;
+}
+
+div {
+    background-color: blue;
+}
+
+.box-1 {
+    background-color: green
+}
+
+.box-2 {
+    background-color: purple
+}
+
+.box-3 {
+    background-color: yellow
+}
+
+.box-4 {
+    background-color: pink
+}
+
+/* class needs .box-1 to be identified as class
+
+-padding pushes content inwards (PART OF THE CONTENT)
+10 PX 10 PX (TOP/BOTTOM RIGHT/LEFT) (TOP RIGHT BOTTOM LEFT) 
+-borders 
+-margin pushes elements away from each other or away
+from the sides (does not count in width and length or element)
+-
+
+BY DEFAULT :
+width + padding + border = actual width of an element
+height + padding + border = actual height of an element
+
+
+box-sizing: border-box (IN RESET CSS FILE)
+
+float clears elements to RIGHT/LEFT or BOTH
+
+(margin: 0 auto) auto calculates equal distance between LEFT/RIGHT
+
+*/
+
+.box-1, 
+.box-2, 
+.box-3, 
+.box-4 {
+    width: 150px;
+    height: 150px;
+    border: solid 5px white;
+    padding: 10px 10px 10px 10px;
+}
+
+body .box-1 {
+    margin: 0 auto;
+
+}
+
+body .box-2 {
+    float: left;
+    clear: both;
+}
+
+body .box-3 {
+    float: right;
+    clear: both;
+}
+
+body .box-4 {
+    float: left;
+    clear: both;
+}
+
